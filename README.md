@@ -8,4 +8,6 @@ GRUPO
 Gabriela Marques Florencio
 Mariana de Moraes Cardoso
 
+28/11/2023
+Falta apenas a implementação do uso de pacote externo (PubDev)
 
