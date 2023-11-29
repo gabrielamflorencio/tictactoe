@@ -24,7 +24,7 @@ Resgate à infância: Relembre os momentos divertidos e simples que marcaram a s
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para reportar bugs, sugerir melhorias ou realizar pull requests para adicionar novos recursos.
 
 ## Autores 📝
-Gabriela Florencio
-Mariana Cardoso
+* Gabriela Florencio
+* Mariana Cardoso
 
 
