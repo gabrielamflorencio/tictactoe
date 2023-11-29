@@ -4,6 +4,7 @@ import 'package:tictactoe/core/constants.dart';
 import 'package:tictactoe/enums/player_type.dart';
 import 'package:tictactoe/enums/winner_type.dart';
 import 'package:tictactoe/widgets/custom_dialog.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class GamePage extends StatefulWidget {
   @override
@@ -23,7 +24,9 @@ class _GamePageState extends State<GamePage> {
 
   _buildAppBar() {
     return AppBar(
-      title: Text(GAME_TITLE),
+      title: Text(GAME_TITLE,
+      style: GoogleFonts.getFont('Poppins'),
+      ),
       centerTitle: true,
     );
   }
@@ -46,7 +49,9 @@ class _GamePageState extends State<GamePage> {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(padding: const EdgeInsets.all(20)),
       onPressed: _onResetGame,
-      child: Text(RESET_BUTTON_LABEL),
+      child: Text(RESET_BUTTON_LABEL,
+        style: GoogleFonts.getFont('Poppins'),
+      ),
     );
   }
 
@@ -146,7 +151,9 @@ class _GamePageState extends State<GamePage> {
 
   _buildPlayerMode() {
     return SwitchListTile(
-      title: Text(_controller.isSinglePlayer ? 'Um jogador' : 'Dois jogadores'),
+      title: Text(_controller.isSinglePlayer ? 'Um jogador' : 'Dois jogadores',
+        style: GoogleFonts.getFont('Poppins'),
+      ),
       secondary: Icon(_controller.isSinglePlayer ? Icons.person : Icons.group),
       value: _controller.isSinglePlayer,
       onChanged: (value) {
